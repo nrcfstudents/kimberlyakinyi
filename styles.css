@@ -75,3 +75,28 @@ h1{
 .nav-links a:hover::after {
     width: 100%;
 }
+/*hero section */
+.hero-section{
+    background: url('images/akinyi.jpg') no-repeat center center/cover;
+    color: purple;
+    text-align:center;
+    padding: 100px 20px;
+
+
+}
+.herocontent h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+
+
+}
+.herocontnt p{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+btn-primary{
+    background-color:#007bff;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 5px;  
+}
