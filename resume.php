@@ -34,7 +34,22 @@
             <tr>
                 <td>fashion</td>
                 <td>modelling</td>
+                <tr>
     	</table>
     </div>
+<form action="send message.php" method="post">
+    <label>
+        your name
+    </label>
+    <input type="text" name="sender">
+    <label>
+        message
+    <label>
+    <textarea name="message">
+    </textarea>
+    <button type="submit">send
+    </button>
+</form>
+</div>
 </body>
 </html>
