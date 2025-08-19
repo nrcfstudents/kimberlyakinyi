@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*navbar*/
+.navbar{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    z-index: 1;
+    position: relative;
+}
+.navbar h1{
+    font-size: 22px;
+}
+.navbar p{
+    font-weight: bold;
+    font-size: 22px;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.social-icons img{
+    width: 15px;
+    
+}
+.navlinks a{
+    color: white;
+    text-decoration: none;
+}
+.navlinks {
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    margin-left: 50px;
+    align-items: center;
+
+}
+.hero{
+       background: url("hero-bg.jpg") center/cover;
+       height: 100vh;
+       display: flex;
+       color:white;
+       justify-content: center;
+       align-items: center;
+}
+ 
+.overlay{
+    background: rgba(0,0,0,0.75);
+    position: fixed;
+    inset:0;
+} 
+.hero-content{
+    z-index: 1;
+	position: relative;
+	text-align: center;
+}
+ a.active{
+    color:red;
+
+}
+.hero-button{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.button-1,.button-2{
+    padding:10px 20px;
+    text-decoration: none;
+    border:2px solid transparent;
+
+}
+.button-1{
+    color:white;
+}
+.button-2{
+    color: tomato;
+    border-color: tomato;
+}
+.hero-content p{
+	font-size: 16px;
+	color: #ccc;
+	margin-bottom: 10px;
+}
+.hero-content h2{
+	font-size:35px;
+	margin-bottom: 25px;
+}
+
+
+
+
+
+
+   
